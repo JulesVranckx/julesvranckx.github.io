@@ -41,6 +41,43 @@ a
     clear: both;
 }
 
+#main-categories 
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(138, 138, 138, 0.973);
+}
+
+nav 
+{
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+}
+
+nav li
+{
+    display: inline-block;
+    width: 200px;
+    height: 3   0px;
+    margin: 0px;
+    padding: 0px ;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    line-height: 40px;
+    text-align: center ;
+}
+
+.other-page 
+{
+    color: black ;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
 .header
 {
     display: flex;
@@ -50,6 +87,7 @@ a
 .main-cat:hover
 {
     color: rgb(245, 2, 2);
+    background-color: rgba(247, 8, 8, 0.247);
 }
 
 /********************************************************
