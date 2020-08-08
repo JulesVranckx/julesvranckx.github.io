@@ -39,6 +39,15 @@ a
 .main-cat
 {
     clear: both;
+    display: inline-block;
+    width: 200px;
+    height: 3   0px;
+    margin: 0px;
+    padding: 0px ;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    line-height: 40px;
+    text-align: center ;
 }
 
 #main-categories 
@@ -54,19 +63,6 @@ nav
     padding: 0px;
     margin: 0px;
     width: auto;
-}
-
-nav li
-{
-    display: inline-block;
-    width: 200px;
-    height: 3   0px;
-    margin: 0px;
-    padding: 0px ;
-    border-right: 1px solid #cccccc;
-    border-left: 1px solid #cccccc;
-    line-height: 40px;
-    text-align: center ;
 }
 
 .other-page 
@@ -117,4 +113,50 @@ img
     height: 300px;
     margin:auto;
 
+}
+
+/***************************
+FOOTER 
+****************************/
+
+#linkedin
+{
+    width: 40px;
+    height: 40px;
+}
+
+#cv
+{
+    width: 40px;
+    height: 40px;
+}
+
+#git
+{
+    height: 40px;
+    width:60px;
+}
+
+#footer
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px ;
+}
+
+.perso_links
+{
+    display: inline-block;
+    width: 60px;
+}
+
+footer
+{
+    position:absolute;
+    text-align: center;
+    bottom:0;
+    width:100%;
+    margin: auto;
+    padding-top:50px;
+    height:50px
 }
